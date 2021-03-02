@@ -95,8 +95,26 @@
         animation: fade_text 1s ease-in-out forwards 4s;
     }
 
-    #btn-download-cv{
+    .btn-pink, .btn-blue {
+        // width: 100%;
         width: fit-content;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .btn-blue, .btn-pink {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 800px){
+
+    .btn-pink, .btn-blue {
+        display: inline-block;
+    }
+    .btn-blue {
+        margin-left: 25px;
     }
 
 }
